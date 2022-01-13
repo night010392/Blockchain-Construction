@@ -12,7 +12,7 @@ Step 1: Click "Download Go for Linux" button to download "Go" package.
 Step 2: Extract package to path "/usr/local".  
 Step 3: Create a directory named "go" in "/usr/local".  
 Step 4: Execute the following command in terminal "sudo rm -rf /usr/local/go &&  
-<li> tar -C /usr/local -xzf go1.17.6.linux-amd64.tar.gz". </li>
+<p> tar -C /usr/local -xzf go1.17.6.linux-amd64.tar.gz". </p>
 Step 5: Execute the following command in terminal "export PATH=$PATH:/usr/local/go/bin".  
 Step 6: Type "go version" to check it is installed sucessfully or not.   
 
