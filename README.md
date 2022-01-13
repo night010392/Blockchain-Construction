@@ -8,7 +8,7 @@
 3. Geth Simulation.
 ## **Step 1: Go Installation**
 Refer to official website of Go: https://go.dev/doc/install  
-###Step 1:
+### Step 1:
 
 ## **Step 2: Geth Installation**
 ## **Step 3: Geth Simulation**
