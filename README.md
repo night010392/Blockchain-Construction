@@ -6,9 +6,9 @@
 1. Install Go.  
 2. Install geth.
 3. Geth Simulation.
-## **Go Installation**
+## **Step 1: Go Installation**
 Refer to official website of Go: https://go.dev/doc/install
+###Step 1:
 
-
-## **Geth Installation**
-## **Geth Simulation**
+## **Step 2: Geth Installation**
+## **Step 3: Geth Simulation**
