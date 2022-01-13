@@ -1,4 +1,5 @@
 # **Chain Construction**
 Construcrt blockchain stimulator on local server.  
-Machine: Geth.
+Package: Geth.
+##Constructed Procedure
 ## **Go Installation**
