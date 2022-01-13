@@ -8,11 +8,7 @@
 3. Geth Simulation.
 ## **Step 1: Go Installation**
 Refer to official website of Go: https://go.dev/doc/install  
-br 
-{ 
-font-size: 18px; 
-vertical-align: -4px; 
-}  
+<hr style="height:30pt; visibility:hidden;" />
 Step 1: Click "Download Go for Linux" button to download "Go" package.    
 Step 2: Extract package to path "/usr/local".    
 Step 3: Create a directory named "go" in "/usr/local".    
