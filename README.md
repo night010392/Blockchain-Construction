@@ -1,4 +1,4 @@
-# **Chain Construction**
+# **Blockchain Construction**
 **Target**:&nbsp; Construcrt blockchain stimulator on local server.  
 **Package**:&nbsp; Geth.  
 **Environment**:&nbsp; Linux Ubuntu.
