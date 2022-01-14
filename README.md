@@ -35,3 +35,8 @@ Step 6: Type "geth --datadir "./db" --http --http.addr &lt;ip of machine&gt; --h
 &emsp; &emsp; &ensp;personal,miner,web3,eth,net --nodiscover --allow-insecure-unlock --rpc.allow-unprotected-txs --miner.gaslimit  
 &emsp; &emsp; &ensp;'10000000000000' --miner.gasprice '0'" on terminal to launch blockchain (each blockchain should have unqiue  
 &emsp; &emsp; &ensp;networkid, http.port, port)
+
+## **Step 4: Geth Control**
+Step 1: Open another terminal.
+Step 2: type "geth attach http:// &lt;ip of machine&gt;:&lt;http.port of blockchain&gt;"
+
