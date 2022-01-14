@@ -37,6 +37,7 @@ Step 6: Type "geth --datadir "./db" --http --http.addr &lt;ip of machine&gt; --h
 &emsp; &emsp; &ensp;networkid, http.port, port)
 
 ## **Step 4: Geth Control**
-Step 1: Open another terminal.
-Step 2: type "geth attach http:// &lt;ip of machine&gt;:&lt;http.port of blockchain&gt;"
+Step 1: Open another terminal.  
+Step 2: Type "geth attach http://&lt;ip of machine&gt;:&lt;http.port of blockchain&gt;" on terminal to enter controlled console of blockchain.  
+Step 3: Type ""
 
