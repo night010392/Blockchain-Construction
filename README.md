@@ -30,4 +30,4 @@ Step 2: Enter the directory "geth", and create directories with arbitary name (E
 Step 3: Enter one of the directories.  
 Step 4: Create a genesis.json with the given content of genesis.json template, only alter the value of chainId, the genesis.json in each  direcotries can be arbitary but unqiue.  
 Step 5: type "geth init genesis.json --datadir './db'" to initialize blockchain.  
-Step 6: Type "geth --datadir "./db" --http --http.addr <ip of machine> --http.port <one port> --port <one port> --http.corsdomain "*" --networkid <one number> --http.api personal,miner,web3,eth,net --nodiscover --allow-insecure-unlock --rpc.allow-unprotected-txs --miner.gaslimit '10000000000000' --miner.gasprice '0'"  
+Step 6: Type "geth --datadir "./db" --http --http.addr &gt;<ip of machine> --http.port &gt;<one port> --port &gt;<one port> --http.corsdomain "*" --networkid &gt;<one number> --http.api personal,miner,web3,eth,net --nodiscover --allow-insecure-unlock --rpc.allow-unprotected-txs --miner.gaslimit '10000000000000' --miner.gasprice '0'"  
