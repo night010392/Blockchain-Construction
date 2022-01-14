@@ -20,7 +20,7 @@ Step 6: Type "go version" to check it is installed sucessfully or not.
 ## **Step 2: Geth Installation**
 Refer to official website of Geth Installation: https://geth.ethereum.org/docs/install-and-build/installing-geth 
   
-Step1: type "sudo add-apt-repository -y ppa:ethereum/ethereum" on terminal.
-Step2: type "sudo apt-get update" on terminal.
+Step1: type "sudo add-apt-repository -y ppa:ethereum/ethereum" on terminal.  
+Step2: type "sudo apt-get update" on terminal.  
 Step3: type "sudo apt-get install ethereum" on terminal.
 ## **Step 3: Geth Simulation**
