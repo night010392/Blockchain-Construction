@@ -7,7 +7,7 @@
 2. Install geth.
 3. Geth Simulation.
 ## **Step 1: Go Installation**
-<style>p{margin:10px 0}<style> 
+<style>p{margin:18px 0}<style> 
 Refer to official website of Go: https://go.dev/doc/install  
 Step 1: Click "Download Go for Linux" button to download "Go" package.    
 Step 2: Extract package to path "/usr/local".    
