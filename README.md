@@ -52,7 +52,8 @@ Step 2: Type "geth --datadir "./db" --http --http.addr &lt;ip of machine&gt; --h
 &emsp; &emsp; &ensp;'10000000000000' --miner.gasprice '0'" on terminal to launch blockchain.  
 Step 3: Open another terminal and type "geth attach http://&lt;ip of machine&gt;:&lt;http.port of blockchain&gt;" on terminal to enter   &emsp; &emsp; &ensp;controlled console of blockchain.    
 Step 4: Type "miner.start()" on console to start mining.  
-Step 5: Type "eth.blockNumber" on console to check the number of block has increased or not.  
+Step 5: Type "eth.blockNumber" on console to check the number of block has increased or not.
+  
 ※Remark: If you want to create new Account, type "personal.newAccount()" to create new account.  
    
 
