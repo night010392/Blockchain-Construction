@@ -20,7 +20,14 @@ Step 6: Type "go version" to check it is installed sucessfully or not.
 ## **Step 2: Geth Installation**
 Refer to official website of Geth Installation: https://geth.ethereum.org/docs/install-and-build/installing-geth 
   
-Step1: type "sudo add-apt-repository -y ppa:ethereum/ethereum" on terminal.  
-Step2: type "sudo apt-get update" on terminal.  
-Step3: type "sudo apt-get install ethereum" on terminal.
+Step 1: type "sudo add-apt-repository -y ppa:ethereum/ethereum" on terminal.  
+Step 2: type "sudo apt-get update" on terminal.  
+Step 3: type "sudo apt-get install ethereum" on terminal.
+
 ## **Step 3: Geth Simulation**
+Step 1: Create a directory name "geth" includes all blockchains.
+Step 2: Enter the directory "geth", and create directories with arbitary name (Each directory represents one blockchain).
+Step 3: Enter one of directory.
+Step 4: Create a genesis.json with the given content of genesis.json template, only alter the value of chainId, the genesis.json in each  direcotries can be arbitary but unqiue.
+Step 5: type "geth init genesis.json --datadir './db'" to initialize blockchain.
+Step 6: Type "geth --datadir "./db" --http --http.addr 192.168.0.131 --http.port 8029 --port 30329 --http.corsdomain "http://remix.ethereum.org" --networkid 129 --http.api personal,miner,web3,eth,net --nodiscover --allow-insecure-unlock --rpc.allow-unprotected-txs --miner.gaslimit '10000000000000' --miner.gasprice '0'"
