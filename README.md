@@ -28,8 +28,8 @@ Step 3: type "sudo apt-get install ethereum" on terminal.
 Step 1: Create a directory named "geth" includes all blockchains.  
 Step 2: Enter the directory "geth", and create directories with arbitary name (Each directory represents one blockchain).  
 Step 3: Enter one of the directories.  
-Step 4: Create a genesis.json with the given content of genesis.json template, only alter the value of chainId, the genesis.json 
-&emsp; &emsp; &ensp; in each  direcotries can be arbitary but unqiue.  
+Step 4: Create a file name "genesis.json" with the given content of genesis.json template, only alter the value of chainId,    
+&emsp; &emsp; &ensp; the genesis.json in each  direcotries can be arbitary but unqiue.  
 Step 5: type "geth init genesis.json --datadir './db'" to initialize blockchain.  
 Step 6: Type "geth --datadir "./db" --http --http.addr &lt;ip of machine&gt; --http.port &lt;one port between 8000 to 9000&gt; --port &emsp; &emsp; &ensp;&lt;one port between 30000 to 31000&gt; --http.corsdomain "*" --networkid &lt;one number&gt; --http.api  
 &emsp; &emsp; &ensp;personal,miner,web3,eth,net --nodiscover --allow-insecure-unlock --rpc.allow-unprotected-txs --miner.gaslimit  
