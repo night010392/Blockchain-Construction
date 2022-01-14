@@ -44,7 +44,7 @@ Step 3: Type "personal.newAccount()" on console to create a new account.
 Step 4: Type "miner.setEtherbase(web3.eth.accounts[0])" on console to specify account 0 to be the miner account.  
 Step 5: Type "miner.start()" on console to start mining.
 
-##**Phase 5: Activitation Procedure of Geth Blockchain**##  
+## **Phase 5: Activitation Procedure of Geth Blockchain** ##  
 Step 1: Enter the directory represents the blockchain you want to launch.  
 Step 2: Type "geth --datadir "./db" --http --http.addr &lt;ip of machine&gt; --http.port &lt;one port between 8000 to 9000&gt; --port  
 &emsp; &emsp; &ensp;&lt;one port between 30000 to 31000&gt; --http.corsdomain "*" --networkid &lt;one number&gt; --http.api  
