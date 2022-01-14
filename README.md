@@ -1,7 +1,7 @@
 # **Blockchain Construction**
 **Target**:&nbsp; Construcrt blockchain stimulator on local server.  
-**Package**:&nbsp; Geth.  
-**Environment**:&nbsp; Linux Ubuntu.
+**Package**:&nbsp; Geth 1.10; Go:1.17.  
+**Environment**:&nbsp; Linux Ubuntu 20.04.
 ## **Constructive Process**
 1. Install Go.  
 2. Install geth.
