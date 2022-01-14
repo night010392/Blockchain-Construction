@@ -10,8 +10,7 @@
 p {
     background: red;
     text-align: center;
-    height: 50px;
-    line-height: 50px;
+    line-height:9px;
     font-size: 14px;
 }
 
