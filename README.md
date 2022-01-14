@@ -6,7 +6,7 @@
 1. Install Go.  
 2. Install geth.
 3. Geth Simulation.
-## **Step 1: Go Installation**
+## **Phase 1: Go Installation**
 Refer to official website of Go: https://go.dev/doc/install  
   
 Step 1: Click "Download Go for Linux" button to download "Go" package.      
@@ -17,14 +17,14 @@ Step 4: Execute the following command in terminal "sudo rm -rf /usr/local/go &&
 Step 5: Execute the following command in terminal "export PATH=$PATH:/usr/local/go/bin".    
 Step 6: Type "go version" to check it is installed sucessfully or not.     
 
-## **Step 2: Geth Installation**
+## **Phase 2: Geth Installation**
 Refer to official website of Geth Installation: https://geth.ethereum.org/docs/install-and-build/installing-geth 
   
 Step 1: type "sudo add-apt-repository -y ppa:ethereum/ethereum" on terminal.  
 Step 2: type "sudo apt-get update" on terminal.  
 Step 3: type "sudo apt-get install ethereum" on terminal.
 
-## **Step 3: Geth Simulation**
+## **Phase 3: Geth Simulation**
 Step 1: Create a directory named "geth" includes all blockchains.  
 Step 2: Enter the directory "geth", and create directories with arbitary name (Each directory represents one blockchain).  
 Step 3: Enter one of the directories.  
@@ -36,8 +36,12 @@ Step 6: Type "geth --datadir "./db" --http --http.addr &lt;ip of machine&gt; --h
 &emsp; &emsp; &ensp;'10000000000000' --miner.gasprice '0'" on terminal to launch blockchain (each blockchain should have unqiue  
 &emsp; &emsp; &ensp;networkid, http.port, port)
 
-## **Step 4: Geth Control**
+## **Phase 4: Geth Blockchain Control**
 Step 1: Open another terminal.  
-Step 2: Type "geth attach http://&lt;ip of machine&gt;:&lt;http.port of blockchain&gt;" on terminal to enter controlled console of blockchain.  
-Step 3: Type ""
+Step 2: Type "geth attach http://&lt;ip of machine&gt;:&lt;http.port of blockchain&gt;" on terminal to enter controlled console of  
+&emsp; &emsp; &ensp;blockchain.  
+Step 3: Type "personal.newAccount()" on console to create a new account.  
+Step 4: Type "miner.setEtherbase(web3.eth.accounts[0])" to specify account 0 to be the miner account.  
+Step 5: Type "miner.start()" to start mining.
+
 
